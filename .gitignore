@@ -1,0 +1,18 @@
+# Veri setleri (GitHub 100MB siniri ve buyuk veri dosyalari)
+*.csv
+*.data
+*.zip
+*.log
+!files/2_Benchmark/tpod_benchmark_results.csv
+
+# Python / Jupyter gecici dosyalari
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.backup.ipynb
+
+# Gecici script ve cache
+scratch/
+.idea/
+.vscode/
